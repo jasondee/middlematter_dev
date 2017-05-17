@@ -10,9 +10,9 @@
 }
 
 .header {
-    margin-top: 10%;
+    margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-gap: 2px;
     grid-auto-rows: minmax(25px, auto);
 }
@@ -25,33 +25,46 @@
 .menuitem {
     text-decoration: none;
     color:grey;
-    padding-bottom: 2em;
 }
 
 #one {
   grid-column: 2;
-  grid-row: 1 ;
+  grid-row: 2 ;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
 #two {
   grid-column: 4;
-  grid-row: 1 ;
+  grid-row: 2 ;
+  font-size: 1.5em;
 }
 
 #logo {
-    padding-right: 1em;
     grid-column: 6;
     grid-row: 1 ;
+    font-size: 3em;
+    margin-right: 1em;
+}
+
+#logotext {
+    grid-column: 6;
+    grid-row: 2 ;
+    font-size: .5em;
+    font-size: 1em;
+    padding-left: .5em;
 }
 
 #three {
   grid-column: 8;
-  grid-row: 1 ;
+  grid-row: 2 ;
+  font-size: 1.5em;
 }
 
 #four {
   grid-column: 10;
-  grid-row: 1 ;
+  grid-row: 2 ;
+  font-size: 1.5em;
 }
 
 a:link{
@@ -80,6 +93,7 @@ a:active{
 <a href="/console" class="menuitem" id="one">Console</a>
 <a href="/phase" class="menuitem" id="two">Phase</a>
 <a href="/" class="menuitem" id="logo">MiddleMatter</a>
+<a href="/" class="menuitem" id="logotext">THE APPLICATION CREATION KIT</a>
 <a href="/about" class="menuitem" id="three">About</a>
 <a href="/blog" class="menuitem" id="four"> Blog</a>
 
