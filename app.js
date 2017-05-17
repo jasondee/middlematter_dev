@@ -15,4 +15,14 @@ app.get("/blog", function(req, res){
     res.render("blog");
 });
 
+app.get("/console", function(req, res){
+    res.render("console");
+});
+
+app.get("/phase", function(req, res){
+    res.render("phase");
+});
+
 app.listen(process.env.PORT, process.env.IP);
+
+console.log("Server is running, so you better catch it!");

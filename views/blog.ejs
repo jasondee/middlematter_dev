@@ -1,134 +1,96 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<!--Custom HTML Skeleton for Jason-->
-<!--Insert Title to Show on Browser Here:-->
 <title>MiddleMatter</title>
-<!--Place FavIcon Here:-->
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<!--Links to Style, FontAwesome and Bootstrap:-->
-<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style1.ejs">
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 2px;
+    grid-auto-rows: minmax(25px, auto);
+}
+
+.content {
+    height: 90%;
+    width: 100%;
+}
+
+.menuitem {
+    text-decoration: none;
+    color:grey;
+    padding-bottom: 2em;
+}
+
+#one {
+  grid-column: 2;
+  grid-row: 1 ;
+}
+
+#two {
+  grid-column: 4;
+  grid-row: 1 ;
+}
+
+#logo {
+    padding-right: 1em;
+    grid-column: 6;
+    grid-row: 1 ;
+}
+
+#three {
+  grid-column: 8;
+  grid-row: 1 ;
+}
+
+#four {
+  grid-column: 10;
+  grid-row: 1 ;
+}
+
+a:link{
+  color:grey;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:grey;
+}
+a:focus{
+  color:grey;
+}
+a:active{
+  color:grey;
+}
+    
+</style>
 </head>
 <!-- ########## -->
 <body>
+    
+<div class="header">
 
- <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">MiddleMatter</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="policies.html">Policies</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="shop.html">Shop <i class="fa fa-cart-plus" aria-hidden="true"></i></a></li>
-        <li class="active"><a href="blog.html">Blog <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-  </div>
- </nav>    <br> <br>
-
-<h2>BLOG</h2>
-
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
-
-<div class="post">
-
-	<div class="date">August 15 2016</div>
-	<h2>Image Processing for Skin Rashes</h2>
-
-	<p class="quote"> <em>
-
-	</em></p>
-  
-<p>
-<br>
-
-In this digital mobile world; it is becoming increasingly convenient to initially look at skin rashes as they
-
-appear on pictures taken by smart phone cameras. The wide range of rashes can potentially point to
-
-insect bites <a href="http://bugsinthenews.info/?p=9623">http://bugsinthenews.info/?p=9623</a> or serious diseases such as shingles, skin
-
-cancer(melanoma), or allergic reactions to poison ivy/oak. 
-
-<br> <br>
-
-Diagnosis techniques <a href="http://www.yourdiagnosis.com/yourskindiagnosis/">http://www.yourdiagnosis.com/yourskindiagnosis/ </a>include answers to questions like does it itch? Is it
-
-sensitive to touch? Your location now and where you have been and the location and size of the rash. 
-
-<br><br>
-
-
-In all these cases it can be useful to process the smart phone picture to reveal details not visible to the naked eye.  Several interesting algorithms including Optimized Successive Mean, and Eulerian Magnification.   MiddleMatter's Night Vision Processing is an example of an application that uses an Optimized Successive Mean algorithm to reveal otherwise invisible detail.   Since different smart phone cameras can present different images it is useful to enhance image's using algorithms like the one found in Night Vision Processing.
-
-</p>
-
-<br><hr><br>
-	 
-	<div class="date">July 21 2016</div>
-	<h2>Optimized Successive Mean Quantization Transform</h2>
-
-	<p class="quote"> <em>
-Successive Mean Quantization Transform (SMQT) algorithm is a non-linear transformation that reveals the organization or structure of the data and removes properties such as gain and bias. In a paper titled The Successive Mean Quantization Transform, SMQT is “applied in speech processing and image processing”. The algorithm when applied to images “can be seen as a progressive focus on the details in an image”.	
-	</em></p>
-
-  <center>
-<a href="https://www.toptal.com/algorithms/successive-mean-quantization-transform">
-
-Optimized Successive Mean Quantization Transform
-
-<br>
-<img src="pic/nightvis.jpg" id="nightvis">
-
-</a>
-
-</center> 
+<a href="/console" class="menuitem" id="one">Console</a>
+<a href="/phase" class="menuitem" id="two">Phase</a>
+<a href="/" class="menuitem" id="logo">MiddleMatter</a>
+<a href="/about" class="menuitem" id="three">About</a>
+<a href="/blog" class="menuitem" id="four"> Blog</a>
 
 </div>
 
-<footer class="footer">
 
-<center>
-
-<a href="https://www.facebook.com/MiddleMatter-1722943484650962/">
-<img src="pic/facebook.png" id="social">
-</a>
-
-<a href="https://www.pinterest.com/middlemattersoc/">
-<img src="pic/pinterest.png" id="social2">
-</a>
-
-<!--   Inactive Youtube 
- 
-<li><img src="pic/youtube.png" id="social"></li>
-
--->
-</ul>
-
-</center>
-
+<div class="content">
+    
+    <img src="https://source.unsplash.com/1920x1080">
+    
 </div>
 
-</footer>
-
-<!--Scripts to add in JQery, FontAwesome and Bootstrap.-->
-<script src="jquery-1.12.4.min.js"></script>
-<script src="https://use.fontawesome.com/b747da3c79.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>

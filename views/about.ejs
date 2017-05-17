@@ -1,7 +1,96 @@
-<h1> This is how you get around the system. </h1>
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MiddleMatter</title>
+<style>
+    
+* {
+    margin: 0;
+    padding: 0;
+}
 
-<div>
-<a href="/"> Go back to whore island! </a>
+.header {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 2px;
+    grid-auto-rows: minmax(25px, auto);
+}
+
+.content {
+    height: 90%;
+    width: 100%;
+}
+
+.menuitem {
+    text-decoration: none;
+    color:grey;
+    padding-bottom: 2em;
+}
+
+#one {
+  grid-column: 2;
+  grid-row: 1 ;
+}
+
+#two {
+  grid-column: 4;
+  grid-row: 1 ;
+}
+
+#logo {
+    padding-right: 1em;
+    grid-column: 6;
+    grid-row: 1 ;
+}
+
+#three {
+  grid-column: 8;
+  grid-row: 1 ;
+}
+
+#four {
+  grid-column: 10;
+  grid-row: 1 ;
+}
+
+a:link{
+  color:grey;
+}
+a:visited{
+  color:grey;
+}
+a:hover{
+  color:grey;
+}
+a:focus{
+  color:grey;
+}
+a:active{
+  color:grey;
+}
+    
+</style>
+</head>
+<!-- ########## -->
+<body>
+    
+<div class="header">
+
+<a href="/console" class="menuitem" id="one">Console</a>
+<a href="/phase" class="menuitem" id="two">Phase</a>
+<a href="/" class="menuitem" id="logo">MiddleMatter</a>
+<a href="/about" class="menuitem" id="three">About</a>
+<a href="/blog" class="menuitem" id="four"> Blog</a>
+
 </div>
 
-<a href="/blog"> Blog concepts. </a>
+
+<div class="content">
+    
+    <img src="https://source.unsplash.com/1920x1080">
+    
+</div>
+
+</body>
+</html>
