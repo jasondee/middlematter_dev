@@ -2,110 +2,87 @@
 <html>
 <head>
 <title>MiddleMatter</title>
-<style>
-    
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-gap: 2px;
-    grid-auto-rows: minmax(25px, auto);
-}
-
-.content {
-    height: 90%;
-    width: 100%;
-}
-
-.menuitem {
-    text-decoration: none;
-    color:grey;
-}
-
-#one {
-  grid-column: 2;
-  grid-row: 2 ;
-  font-size: 1.5em;
-  margin-bottom: 1em;
-}
-
-#two {
-  grid-column: 4;
-  grid-row: 2 ;
-  font-size: 1.5em;
-}
-
-#logo {
-    grid-column: 6;
-    grid-row: 1 ;
-    font-size: 3em;
-    margin-right: 1em;
-    color: #000000;
-}
-
-#logotext {
-    grid-column: 6;
-    grid-row: 2 ;
-    font-size: .5em;
-    font-size: 1em;
-    padding-left: .5em;
-}
-
-#three {
-  grid-column: 8;
-  grid-row: 2 ;
-  font-size: 1.5em;
-}
-
-#four {
-  grid-column: 10;
-  grid-row: 2 ;
-  font-size: 1.5em;
-}
-
-a:link{
-  color:grey;
-}
-a:visited{
-  color:grey;
-}
-a:hover{
-  color:grey;
-}
-a:focus{
-  color:grey;
-}
-a:active{
-  color:grey;
-}
-    
-</style>
+<link rel="stylesheet" href="app.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <!-- ########## -->
 <body>
     
 <div class="header">
 
-<a href="/console" class="menuitem" id="one">Console</a>
-<a href="/phase" class="menuitem" id="two">Phase</a>
-<a href="/" class="menuitem" id="logo">MiddleMatter</a>
+<a href="/contact" class="menuitem" id="one">CONTACT</a>
+<a href="/policies" class="menuitem" id="two">POLICIES</a>
+<a href="/" class="menuitem" id="logopic">
+  
+  <img src="logo.png">
+  
+</a>
+<a href="/" class="menuitem" id="logo">MIDDLEMATTER</a>
 <a href="/" class="menuitem" id="logotext">THE APPLICATION CREATION KIT</a>
-<a href="/about" class="menuitem" id="three">About</a>
-<a href="/blog" class="menuitem" id="four"> Blog</a>
+<a href="/about" class="menuitem" id="three">ABOUT</a>
+<a href="/blog" class="menuitem" id="four"> BLOG</a>
 
 </div>
 
+<p id="blogHead">BLOG</p>
 
-<div class="content">
-    
-    <img src="https://source.unsplash.com/1920x1080">
-    
+<div class="post">
+
+	<div class="date">August 15 2016</div>
+	<h2>Image Processing for Skin Rashes</h2>
+
+	<p class="quote"> <em>
+
+	</em></p>
+  
+<p id="blogtext">
+<br>
+
+In this digital mobile world; it is becoming increasingly convenient to initially look at skin rashes as they
+
+appear on pictures taken by smart phone cameras. The wide range of rashes can potentially point to
+
+insect bites <a href="http://bugsinthenews.info/?p=9623">http://bugsinthenews.info/?p=9623</a> or serious diseases such as shingles, skin
+
+cancer(melanoma), or allergic reactions to poison ivy/oak. 
+
+<br> <br>
+
+Diagnosis techniques <a href="http://www.yourdiagnosis.com/yourskindiagnosis/">http://www.yourdiagnosis.com/yourskindiagnosis/ </a>include answers to questions like does it itch? Is it
+
+sensitive to touch? Your location now and where you have been and the location and size of the rash. 
+
+<br><br>
+
+
+In all these cases it can be useful to process the smart phone picture to reveal details not visible to the naked eye.  Several interesting algorithms including Optimized Successive Mean, and Eulerian Magnification.   MiddleMatter's Night Vision Processing is an example of an application that uses an Optimized Successive Mean algorithm to reveal otherwise invisible detail.   Since different smart phone cameras can present different images it is useful to enhance image's using algorithms like the one found in Night Vision Processing.
+
+</p>
+
+<br><hr><br>
+	 
+	<div class="date">July 21 2016</div>
+	<h2>Optimized Successive Mean Quantization Transform</h2>
+
+	<p class="quote"> <em>
+Successive Mean Quantization Transform (SMQT) algorithm is a non-linear transformation that reveals the organization or structure of the data and removes properties such as gain and bias. In a paper titled The Successive Mean Quantization Transform, SMQT is “applied in speech processing and image processing”. The algorithm when applied to images “can be seen as a progressive focus on the details in an image”.	
+	</em></p>
+
+  <center>
+<a href="https://www.toptal.com/algorithms/successive-mean-quantization-transform">
+
+Optimized Successive Mean Quantization Transform
+
+<br>
+<img src="nightvis.jpg" id="nightvis">
+
+</a>
+
+</center> 
+
 </div>
+
 
 </body>
 </html>
