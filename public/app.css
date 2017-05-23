@@ -34,7 +34,7 @@ p {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-gap: 2px;
-    grid-auto-rows: minmax(25px, auto);
+    grid-auto-rows: minmax(auto, auto);
 }
 
 .content {
@@ -53,21 +53,17 @@ p {
 #one {
   grid-column: 2;
   grid-row: 3 ;
-  font-size: 1.5em;
   margin-bottom: 1em;
 }
 
 #two {
   grid-column: 4;
   grid-row: 3 ;
-  font-size: 1.5em;
 }
 
 #logopic {
     grid-column: 6;
     grid-row: 1 ;
-    font-size: 3em;
-    margin-right: 1em;
     color: #000000;
     display: block;
     margin: auto;
@@ -76,34 +72,29 @@ p {
 #logo {
     grid-column: 6;
     grid-row: 2 ;
-    font-size: 3em;
-    margin-right: 1em;
     color: #000000;
     display: block;
     margin: auto;
+    font-size: 2em;
 }
 
 #logotext {
     grid-column: 6;
     grid-row: 3 ;
-    font-size: .5em;
-    font-size: 1em;
-    padding-left: .5em;
     color: #000000;
     display: block;
     margin: auto;
+    font-size: .75em;
 }
 
 #three {
   grid-column: 8;
   grid-row: 3 ;
-  font-size: 1.5em;
 }
 
 #four {
   grid-column: 10;
   grid-row: 3 ;
-  font-size: 1.5em;
 }
 
 a:link{
