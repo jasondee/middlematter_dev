@@ -38,14 +38,14 @@ p {
 }
 
 .content {
-    padding-bottom: 100%;
     height: 100%;
     width: 100%;
-    background-image: url("https://source.unsplash.com/6mOXg-RDd8s");
+    background-image: url("https://source.unsplash.com/Hi9GSwWkCJk");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 3em;
+    padding-bottom: 2em;
 }
 
 .menuitem {
@@ -172,7 +172,7 @@ a:active{
 /* END OF BLOG SECTION #########################*/
 
 .contact {
-    padding-bottom: 100%;
+    padding-bottom: 2em;
     width: 100%;
     background-image: url("https://source.unsplash.com/YPLx5eOy49M");
     background-position:center;
@@ -182,7 +182,7 @@ a:active{
 }
 
 .ayeboot {
-    padding-bottom: 100%;
+    padding-bottom: 2em;
     width: 100%;
     background-image: url("https://source.unsplash.com/CmF_5GYc6c0");
     background-position:center;
@@ -190,3 +190,14 @@ a:active{
     background-size: cover;
     padding-top: 3em;
 }
+
+.policy {
+    padding-bottom: 2em;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/uq33GjDignE");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+}
+
