@@ -6,10 +6,10 @@
 
 h1 {
     color: #ffffff;
-    padding-bottom: .5em;
-    margin-left: 2%;
-    margin-right: 25%;
+    padding-left: 25px;
     font-size: 4em;
+    border-left: thin #ffffff solid; 
+    margin-left: 10%;
 }
     
 p {
@@ -41,7 +41,10 @@ p {
     padding-bottom: 100%;
     height: 100%;
     width: 100%;
-    background: #000000;
+    background-image: url("https://source.unsplash.com/6mOXg-RDd8s");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 3em;
 }
 
@@ -130,7 +133,7 @@ a:active{
     margin-left: 2em;
 }
 
-/* BOG SECTION ########################*/
+/* BLOG SECTION ########################*/
 
 #blogHead {
   font-weight: 400;
@@ -166,4 +169,24 @@ a:active{
     color: #000000;
 }
 
-/* END OF BLOG SECTION #########################/*
+/* END OF BLOG SECTION #########################*/
+
+.contact {
+    padding-bottom: 100%;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/YPLx5eOy49M");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+}
+
+.ayeboot {
+    padding-bottom: 100%;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/CmF_5GYc6c0");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+}
