@@ -1,54 +1,79 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>MiddleMatter</title>
-<link rel="stylesheet" href="app.css">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-</head>
-<!-- ########## -->
-<body>
+<% include partials/header %>
     
-<div class="header">
-
-<a href="/contact" class="menuitem" id="one">CONTACT</a>
-<a href="/policies" class="menuitem" id="two">POLICIES</a>
-<a href="/" class="menuitem" id="logopic">
-  
-  <img src="logo.png">
-  
-</a>
-<a href="/" class="menuitem" id="logo">MIDDLEMATTER</a>
-<a href="/" class="menuitem" id="logotext">THE APPLICATION CREATION KIT</a>
-<a href="/about" class="menuitem" id="three">ABOUT</a>
-<a href="/blog" class="menuitem" id="four"> BLOG</a>
-
-</div>
+<% include partials/nav %>
 
 <div class="contact">
   
-  <h1> 
-    REACH OUT
-  </h1>
+  <div class="container">
+  
+    <h1> 
+      REACH OUT
+    </h1>
     
-  <p>
-    
-    <br><br>
-    MIDDLEMATTER <br>
-    2768 BURNETT RD. <br>
-    AUSTIN, TX 78714
-    
-      <br><br>
+    <form action="https://formspree.io/atxjdc@gmail.com" method="POST" class="form">
       
-     <br>
-    INFO@MIDDLEMATTER.COM
+      <input type="text" name="name" placeholder="  Name" class="formData">
+      
+        <br><br>
+      
+      <input type="text" name="_replyto" placeholder="  E-mail" class="formData"/>
     
-    <br><br>
+        <br><br>
+      
+      <textarea rows="10" cols="50" name="message" placeholder="" class="formDataMessage">
+        
+      </textarea>
     
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d190795.26607080924!2d-97.70544019342609!3d30.31370489846483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1495549180942" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br><br>
+      
+      <input type="submit" value="SEND" class="button">
+    
+      <input type="hidden" name="_next" value="/contact" />
+    
+      <input type="hidden" name="_subject" value="New submission!" />
+    
+      <input type="text" name="_gotcha" style="display:none" />
+    
+      <!-- <input type="hidden" name="_cc" value="another@email.com" /> -->
+    
+    </form>
+    
+    <p>
+      
+        MIDDLEMATTER
+      
+        <br>
+      
+        2768 BURNETT RD.
+      
+        <br>
+      
+        AUSTIN, TX 78714
+      
+        <br><br>
+      
+        <br>
+      
+        INFO@MIDDLEMATTER.COM
+    
+        <br><br>
+    
+        <iframe src=
+      
+       "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d190795.26607080924!2d-97.70544019342609!3d30.31370489846483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1495549180942"
+      
+        width="300" 
+      
+        height="300" 
+        
+        style="border-radius: 20px;"
+      
+       allowfullscreen></iframe>
 
-  </p>
-    
+    </p>
+  
+  </div>
+
 </div>
 
-</body>
-</html>
+<% include partials/footer %>

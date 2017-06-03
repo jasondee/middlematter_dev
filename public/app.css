@@ -1,3 +1,7 @@
+/* Primary MiddleMatter Style Sheet */
+
+
+/* Site Wide */
 
 * {
     margin: 0;
@@ -11,41 +15,42 @@ h1 {
     border-left: thin #ffffff solid; 
     margin-left: 10%;
 }
+
+h2 {
+    color: #ffffff;
+    padding-left: 25px;
+    margin-top: 3em;
+    font-size: 2em;
+    border-left: thin #ffffff solid; 
+    margin-left: 10%;
+}
     
 p {
     color: #ffffff;
     margin-left: 15%;
     margin-right: 35%;
+    margin-bottom: 3em;
     font-size: 1.5em;
+    padding-top: 2em;
 }
 
-.heading {
-    padding-top: 5%;
-    width: 100%;
-    background: #000000;
+.tab {
+    margin-left: 2em;
 }
 
-.headpad {
-    border-left: thin #ffffff solid;
-    margin-left: 15%;
+.division {
+  height: 2em;
 }
+
+/* END of Site Wide */
+
+/* nav */
 
 .header {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-gap: 2px;
     grid-auto-rows: minmax(auto, auto);
-}
-
-.content {
-    height: 100%;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/Hi9GSwWkCJk");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-    padding-bottom: 2em;
 }
 
 .menuitem {
@@ -115,12 +120,185 @@ a:focus{
 a:active{
   color:grey;
 }
-    
-    
-.policy {
+
+/* END of nav */
+
+/* Home */
+
+.content {
     height: 100%;
     width: 100%;
-    background: #000000;
+    background-image: url("https://source.unsplash.com/Hi9GSwWkCJk");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.content2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/YOT6kS8YtEA");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.content3 {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/GOQ32dlahDk");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+    
+#teamLink {
+  color: #ffffff;
+  text-decoration: none
+}
+
+
+/* END of Home */
+
+/* About */
+
+.about {
+    padding-bottom: 2em;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/CmF_5GYc6c0");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+}
+
+.theTeam {
+    padding-bottom: 2em;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/dUV3oohJzE8");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
+}
+
+#teamPic {
+  height: 50%;
+  width: 75%;
+  margin: 0 0 0 15%;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.teamID {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#team1 {
+  margin: 2em 2em 2em 15%;
+}
+
+#team2 {
+    margin: 2em 2em 2em 10%;
+}
+
+#team3 {
+    margin: 2em 2em 2em 10%;
+}
+
+#team4 {
+    margin: 2em 2em 2em 10%;
+}
+
+.aboutContactUs {
+  width: 100%; 
+  height: 20em;
+    background-image: url("https://source.unsplash.com/DlkF4-dbCOU");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutButton {
+  border-radius: 15px;
+  padding: .5em .5em;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0 1em 1em 3%;
+  font-size: 1em;
+  max-width: 5em;
+  border: 1px solid grey;
+}
+
+.aboutCon {
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-top: 2em;
+    margin: 0 0 0 1%;
+}
+
+/* END of About */
+
+/* Contact */
+
+.contact {
+    padding-bottom: 2em;
+    padding-top: 3em;
+    background-image: url("https://source.unsplash.com/YQrbMEKrlbU");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    margin-left: 15%;
+    margin-right: 35%;
+    font-size: 1.5em;
+    padding-top: 2em;
+}
+
+.formData {
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.formDataMessage {
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.button {
+  border-radius: 15px;
+  padding: 1em 2em;
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* END of Contact */
+
+/* Policies */
+
+.policy {
+    padding-bottom: 2em;
+    width: 100%;
+    background-image: url("https://source.unsplash.com/uq33GjDignE");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3em;
 }
 
 #policytext {
@@ -129,9 +307,11 @@ a:active{
     color: #ffffff;
 }
 
-.tab {
-    margin-left: 2em;
-}
+/* END of Policies */
+
+
+/* END */
+
 
 /* BLOG SECTION ########################*/
 
@@ -171,33 +351,4 @@ a:active{
 
 /* END OF BLOG SECTION #########################*/
 
-.contact {
-    padding-bottom: 2em;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/YPLx5eOy49M");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-}
-
-.ayeboot {
-    padding-bottom: 2em;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/CmF_5GYc6c0");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-}
-
-.policy {
-    padding-bottom: 2em;
-    width: 100%;
-    background-image: url("https://source.unsplash.com/uq33GjDignE");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 3em;
-}
 
