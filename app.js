@@ -21,10 +21,6 @@ app.get("/about", function(req, res){
     res.render("about");
 });
 
-app.get("/blog", function(req, res){
-    res.render("blog");
-});
-
 app.get("/console", function(req, res){
     res.render("console");
 });
