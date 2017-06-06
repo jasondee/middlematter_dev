@@ -11,7 +11,7 @@
 h1 {
     color: #ffffff;
     padding-left: 25px;
-    font-size: 4em;
+    font-size: 3em;
     border-left: thin #ffffff solid; 
     margin-left: 10%;
 }
@@ -23,6 +23,7 @@ h2 {
     font-size: 2em;
     border-left: thin #ffffff solid; 
     margin-left: 10%;
+    text-decoration: none;
 }
     
 p {
